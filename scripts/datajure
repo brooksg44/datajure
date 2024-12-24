@@ -94,7 +94,8 @@ fi
 
 cd "$original_dir"
 if [[ "$script_path" = false ]]; then
-    java $jvm_opts -jar $uberjar_dir/$uberjar_name
+    java $jvm_opts -jar $uberjar_dir/$uberjar_name 
 else
-    java $jvm_opts -jar $uberjar_dir/$uberjar_name $script_path
+    java $jvm_opts -jar $uberjar_dir/$uberjar_name $script_p 
+    
 fi
